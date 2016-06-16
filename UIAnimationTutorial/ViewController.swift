@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareAnger()
+        prepareForGentleTreatment()
         self.angerAnimator.startAnimation()
     }
 
@@ -56,5 +57,12 @@ class ViewController: UIViewController {
         
         deathAnimator.startAnimation()
     }
+
+    @IBAction func goodStroke(_ sender: UISwipeGestureRecognizer) {
+    }
+    
+    @IBAction func badStroke(_ sender: UISwipeGestureRecognizer) {
+    }
+
 }
 

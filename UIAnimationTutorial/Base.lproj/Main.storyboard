@@ -21,21 +21,39 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HnU-e6-Kz8">
                                 <color key="backgroundColor" red="1" green="0.065431795060000006" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EGY-r5-JRC" appends="YES" id="IrV-7h-CXX"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="HnU-e6-Kz8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="JVn-GU-FaC"/>
                             <constraint firstItem="HnU-e6-Kz8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aKQ-Dv-dGt"/>
                             <constraint firstItem="HnU-e6-Kz8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="193" id="eCc-pT-3Z4"/>
                             <constraint firstItem="HnU-e6-Kz8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tdJ-Fb-YJP"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="s0g-XF-Mmd" appends="YES" id="tkB-ZZ-Dtq"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="animatedView" destination="HnU-e6-Kz8" id="JSJ-IR-JPk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="EGY-r5-JRC" userLabel="DownStroke">
+                    <connections>
+                        <action selector="goodStroke:" destination="BYZ-38-t0r" id="dL9-Wj-xdX"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="s0g-XF-Mmd" userLabel="UpStroke">
+                    <connections>
+                        <action selector="badStroke:" destination="BYZ-38-t0r" id="reD-ye-WDH"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
         </scene>
     </scenes>
