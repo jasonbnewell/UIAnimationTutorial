@@ -14,6 +14,7 @@
 		74A9B6E11D1175F800C99E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A9B6DF1D1175F800C99E8A /* LaunchScreen.storyboard */; };
 		74A9B6EC1D1175F800C99E8A /* UIAnimationTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9B6EB1D1175F800C99E8A /* UIAnimationTutorialTests.swift */; };
 		74A9B6F71D1175F800C99E8A /* UIAnimationTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9B6F61D1175F800C99E8A /* UIAnimationTutorialUITests.swift */; };
+		74A9B7051D11F4DB00C99E8A /* CustomTimingCurveProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9B7041D11F4DB00C99E8A /* CustomTimingCurveProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		74A9B6F21D1175F800C99E8A /* UIAnimationTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAnimationTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A9B6F61D1175F800C99E8A /* UIAnimationTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationTutorialUITests.swift; sourceTree = "<group>"; };
 		74A9B6F81D1175F800C99E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A9B7041D11F4DB00C99E8A /* CustomTimingCurveProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTimingCurveProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				74A9B6D61D1175F800C99E8A /* AppDelegate.swift */,
 				74A9B6D81D1175F800C99E8A /* ViewController.swift */,
+				74A9B7041D11F4DB00C99E8A /* CustomTimingCurveProvider.swift */,
 				74A9B6DA1D1175F800C99E8A /* Main.storyboard */,
 				74A9B6DD1D1175F800C99E8A /* Assets.xcassets */,
 				74A9B6DF1D1175F800C99E8A /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A9B7051D11F4DB00C99E8A /* CustomTimingCurveProvider.swift in Sources */,
 				74A9B6D91D1175F800C99E8A /* ViewController.swift in Sources */,
 				74A9B6D71D1175F800C99E8A /* AppDelegate.swift in Sources */,
 			);
